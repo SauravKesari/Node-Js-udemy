@@ -1,0 +1,16 @@
+{
+  "name": "promise-practice",
+  "version": "1.0.0",
+  "description": "promises examples",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saurav kesari",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.2"
+  }
+}
