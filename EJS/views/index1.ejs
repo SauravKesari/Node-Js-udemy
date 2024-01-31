@@ -1,0 +1,12 @@
+
+
+<%if (locals.name) { %>
+    <h1>There are <%= name %></h1>
+<%} else {%>
+    <h1>Write your name</h1>
+<%}%>
+<form action="/submit" method="POST">
+    <label>Name</label>
+    <input type="text" name="name" placeholder="Enter name"/>
+    <input type="submit" value="Save"/>
+</form>

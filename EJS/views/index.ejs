@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJS</title>
+</head>
+<body>
+    <h1><%= data.title %></h1>
+    <p><%= data.seconds %></p>
+    <%  for(var i=0;i<data.items.length;i++) {%>
+        <ul>
+            <li><%= data.items[i] %></li>
+        </ul>
+        <%
+    }%>
+    <p><%- data.htmlContent %></p>
+
+    <%- include("footer.ejs") %>
+
+</body>
+</html>
